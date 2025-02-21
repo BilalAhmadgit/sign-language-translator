@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Data and models
+data2/
+*.p
+*.pickle
+*.pickle2
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db 
