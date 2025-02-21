@@ -1,5 +1,60 @@
 # Hand Gesture Recognition Project
 
+## Purpose
+This project implements a real-time hand gesture recognition system that can detect and interpret hand gestures for both numbers (0-9) and alphabets (A-Z). Using computer vision and machine learning, it captures hand movements through a webcam and translates them into corresponding numbers or letters, making it useful for sign language interpretation and gesture-based human-computer interaction.
+
+## Core Functions
+
+### 1. Hand Detection and Tracking
+- Real-time hand landmark detection using MediaPipe
+- Tracks 21 key points on each hand
+- Supports detection of multiple hands
+- Provides accurate hand position and orientation tracking
+
+### 2. Gesture Recognition
+- Numbers Recognition (0-9)
+- Alphabet Recognition (A-Z)
+- Real-time processing and feedback
+- Visual bounding box around detected hands
+- On-screen display of recognized gestures
+
+### 3. Data Collection and Training
+- Automated data collection system
+- Support for custom gesture dataset creation
+- Image processing and feature extraction
+- Model training capabilities
+
+## Key Features
+
+### Real-time Processing
+- Live webcam feed processing
+- Immediate gesture recognition
+- Visual feedback system
+- Low-latency response
+
+### Multi-Mode Recognition
+1. **Number Mode**
+   - Recognizes digits 0-9
+   - Suitable for numeric input
+   - Clear visual feedback
+
+2. **Alphabet Mode**
+   - Recognizes letters A-Z
+   - Supports sign language alphabet
+   - Real-time letter display
+
+### User-Friendly Interface
+- Simple webcam-based interface
+- Clear visual indicators
+- Easy-to-understand output
+- Minimal setup required
+
+### Customization Options
+- Adjustable confidence thresholds
+- Customizable data collection
+- Expandable gesture library
+- Training system for new gestures
+
 ## Step-by-Step Guide to Run the Project
 
 ### Step 1: Setup Environment
