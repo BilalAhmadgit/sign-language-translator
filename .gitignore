@@ -2,12 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
-env/
+.venv/
+data/*
+data/
+data_numbers
 
 # Data and models
 data2/
+data_sentences/
 *.p
+!data.pickle
 *.pickle
 *.pickle2
 
