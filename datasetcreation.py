@@ -12,7 +12,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3,max_num_hands=2)
 
 DATA_DIR = './data_sentences'
-
+ 
 data = []
 labels = []
 for dir_ in os.listdir(DATA_DIR):
