@@ -30,7 +30,7 @@ while True:
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
     results = hands.process(frame_rgb)
-    if results.multi_hand_landmarks:
+    if results.multi_hand_landmarks: 
         for hand_landmarks in results.multi_hand_landmarks:
             mp_drawing.draw_landmarks(
                 frame,  # image to draw
