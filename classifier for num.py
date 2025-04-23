@@ -23,7 +23,7 @@ while True:
     x_ = []
     y_ = []
 
-    ret, frame = cap.read()
+    ret, frame = cap.read() 
 
     H, W, _ = frame.shape
 
